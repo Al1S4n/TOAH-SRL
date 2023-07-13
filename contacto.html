@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOAH | Contacto</title>
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/estilos_contacto.css">
+</head>
+<body>
+    <header>
+        <div>
+        <a href="index.html"><img src="Imagenes/LogoTOAH_.png" alt="LogoTOAH"></a>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href= "servicios.html">SERVICIOS</a></li>
+                <li><a href="direccion.html">DIRECCIÓN</a></li>
+                <li class="contacto_on"><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <main>
+        <section id="seccion4">
+            <h1 id="contacto"><a id="Contacto"></a>Contáctanos!</h1>
+            <br><br>
+            <p>Para mayor información puede contactarnos telefónicamente al <b style="font-size: 26px;">351-4511335</b> de <b style="font-size: 26px;">Lunes a Viernes de 9 a 13hs o de 14 a 18hs</b></p>
+            <br>
+            <p>Si está interesado en alguno de nuestros servicios, complete el siguiente formulario y nos pondremos en contacto con usted!</p> 
+            <br>
+            <form action="formulario.php" method="POST">
+                <label>Nombre y Apellido<span>*</span>:<br>
+                    <input type="text" name="nombre" required>
+                </label>
+                <br>
+                <label>Teléfono<span>*</span>:<br>
+                    <input type="number" name="telefono" required>
+                </label>
+                <br>
+                <label>Mail<span>*</span>:<br>
+                    <input type="email" name="email" required>
+                </label>
+                <br>
+                <label>Localidad<span>*</span>:<br>
+                    <input type="text" name="localidad" required>
+                </label>
+                <br>
+                <label>Mensaje:<br>
+                    <textarea name="mensaje"></textarea>
+                </label>
+                <br><br>
+                <input type="submit" value="Enviar" id="boton">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <section id="footer">
+            <div>
+              <img src="Imagenes/Mail.png" alt="mail" style="width: 40px;">
+              <img src="Imagenes/Telefono.png" alt="telefono" style="width: 40px;">
+              <img src="Imagenes/Whatsaap.png" alt="Whatsaap" id="img_Wpp" style="width:40px; padding-top: 10px;">
+            </div>
+            <div>
+             <p>Email: <a href="mailto:toah@toah.net" class="email">toah@toah.net</a></p>
+             <p>Tel: 351-4511335</p> 
+             <p>WhatsApp: <a href="https://wa.me/5493516805039" class="wpp">351-156805039</a></p>
+            </div>
+        </section>
+        <seccion>
+             <p>Alejandro Carbó 1843, B° Gral Paz, Córdoba.</p>
+             <p>Horarios: Lunes a Viernes de 9hs a 13hs y de 14hs a 18hs </p>
+
+             <div id="tarjetas">
+             <img src="Imagenes/master.png" alt="master">
+             <img src="Imagenes/visa2.jpg" alt="visa" >
+             <img src="Imagenes/naranja.png" alt="naranja">
+             <img src="Imagenes/bancor2.png" alt="bancor" style="background-color: white;">
+             </div>
+        </seccion>
+    </footer>
+    
+</body>
+</html>

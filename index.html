@@ -5,19 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TOAH Servicios Técnicos</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="CSS/estilos_index.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/footer.css">
 </head>
+
 <body>
     <header>
         <div>
-        <img src="Imagenes/LogoTOAH_.png" alt="LogoTOAH">
+        <a href="index.html"><img src="Imagenes/LogoTOAH_.png" alt="LogoTOAH"></a>
 
-        <nav>
+        <nav class="menu">
             <ul>
-                <li><a href="#Bienvenidos">Home</a></li>
-                <li><a href="#Servicios">Servicios</a></li>
-                <li><a href="#Ubicacion">Dirección</a></li>
-                <li><a href="#Contacto">Contacto</a></li>
+                <li class="home_on"><a href="index.html">HOME</a></li>
+                <li><a href= "servicios.html">SERVICIOS</a></li>
+                <li><a href="direccion.html">DIRECCIÓN</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
             </ul>
         </nav>
         </div>
@@ -25,11 +28,13 @@
 
     <main>
         <section id="seccion1">
-            <h1 id="bienvenidos"><a id="Bienvenidos">Bienvenidos!</a></h1> 
-            <p>TOAH es una empresa con más de <b>40 años de trayectoria y experiencia.</b> Nos especializamos en la reparación de artículos del hogar pertenecientes a la línea blanca, puntualmente: <b>lavarropas, lavavajillas, secarropas, heladeras y freezers.</b></p>
+            <h1 id="bienvenidos">Bienvenidos!</h1> 
+            <br><br>
+            <p>TOAH es una empresa con más de <b>40 años de trayectoria y experiencia.</b> Nos especializamos en la reparación de artículos del hogar pertenecientes a la línea blanca, puntualmente: <strong>heladeras, freezers, cavas, lavarropas, lavavajillas, secarropas a calor y centrífugos.</strong></p>
             <br>
             <p>Actualmente las siguientes firmas confían en nosotros para representarlas en la ciudad de Córdoba: </p>
-            <ul>
+            <br>
+            <ul style="margin-left: 20px;">
                 <li>Autosal SA: para sus productos <a href="https://kohinoor.com.ar/">Kohinoor</a> y <a href="https://www.columbiaelectrodomesticos.com.ar/">Columbia</a></li>
                 <li>Indesit SA: para sus productos <a href="https://www.indesit.es/">Indesit</a> y <a href="https://www.aristonchannel.ar/">Ariston</a></li>
                 <li><a href="https://www.candy.com.ar/">Candy SA</a></li>
@@ -53,68 +58,6 @@
               <img src="Imagenes/Vondom.png" alt="Vondom" style="width: 180px; margin-left: 10px;margin-bottom: 10px;"> 
             </article>
         </section>
-        
-        <section class="seccion2">
-            <h1 id="servicios"><a id="Servicios">Nuestros Servicios</a></h1>
-            <p>Los años y la experiencia convierten a TOAH en una de las mejores empresas en Córdoba en servios técnicos de electrodomésticos.</p>
-            <p> Actualmente nuestra empresa lleva adelante la reparación de los siguientes productos: <b>heladeras, freezer, lavarropas, lavavajillas y secarropas.</b></p>
-
-            <div id="div_servicios">
-            <p style="text-decoration:underline;">Contamos con:</p>
-            <ul>
-                <li>Técnicos disponibles para visitas a domicilio</li><br>
-                <li>Recepción directa de productos en taller sin turno previo</li><br>
-                <li>Transporte propio para el traslado de unidades</li><br>
-                <li>Venta de repuestos</li><br>
-                <li>Formulación de presupuestos para presentar ante aseguradoras</li>
-            </ul>
-
-            <img src="Imagenes/Tecnicoo.png" alt="tecnico" style="width: 300px;padding-left: 50px;">
-            </div>
-
-            <p>Nuestra área de cobertura abarca principalmente la Ciudad de Córdoba y hasta un radio de 30km, incluyendo las zonas de La Calera, Villa Allende, Mendiolaza, Unquillo, Malagueño, Monte Cristo, entre otros.</p>
-            <br><br>
-        </section>
-
-        <section id="seccion3">
-            <h1 id="ubicacion"><a id="Ubicacion">¿Dónde estamos?</a></h1>
-
-            <p>Nuestra empresa está ubicada en: <b>Alejandro Carbó 1843, B° General Paz, Córdoba Capital.</b></p>
-        
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.8629284678855!2d-64.160787683315!3d-31.41790243149344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a2b01cca0a0b%3A0x3658a03e2428f5a7!2sTOAH%20Technical%20Services%20SRL!5e0!3m2!1sen!2sar!4v1684966127136!5m2!1sen!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
-
-        <section id="seccion4">
-            <h1 id="contacto"><a id="Contacto"></a>Contáctanos!</h1>
-            <p>Para mayor información puede contactarnos telefónicamente al <b style="font-size: 26px;">351-4511335</b> de <b style="font-size: 26px;">Lunes a Viernes de 9 a 13hs o de 14 a 18hs</b></p>
-            
-            <p>Si está interesado en alguno de nuestros servicios, complete el siguiente formulario y nos pondremos en contacto con usted!</p> 
-
-            <form action="index.php" method="post">
-                <legend>Formulario de Contacto</legend><br><br>
-                <label>Nombre y Apellido<span>*</span>:<br>
-                    <input type="text" name="nombre" required>
-                </label>
-                <br>
-                <label>Teléfono<span>*</span>:<br>
-                    <input type="number" name="telefono" required>
-                </label>
-                <br>
-                <label>Mail<span>*</span>:<br>
-                    <input type="email" name="email" required>
-                </label>
-                <br>
-                <label>Localidad<span>*</span>:<br>
-                    <input type="text" name="localidad" required>
-                </label>
-                <br>
-                <label>Mensaje:<br>
-                    <textarea name="mensaje"></textarea>
-                </label>
-                <br><br>
-                <button>Enviar</button>
-            </form>
-        </section>
     </main>
 
     <footer>
@@ -124,7 +67,7 @@
               <img src="Imagenes/Telefono.png" alt="telefono" style="width: 40px;">
               <img src="Imagenes/Whatsaap.png" alt="Whatsaap" id="img_Wpp" style="width:40px; padding-top: 10px;">
             </div>
-            <div style="width: 400px;">
+            <div>
              <p>Email: <a href="mailto:toah@toah.net" class="email">toah@toah.net</a></p>
              <p>Tel: 351-4511335</p> 
              <p>WhatsApp: <a href="https://wa.me/5493516805039" class="wpp">351-156805039</a></p>
@@ -133,8 +76,14 @@
         <seccion>
              <p>Alejandro Carbó 1843, B° Gral Paz, Córdoba.</p>
              <p>Horarios: Lunes a Viernes de 9hs a 13hs y de 14hs a 18hs </p>
-        </seccion>
 
+             <div id="tarjetas">
+             <img src="Imagenes/master.png" alt="master">
+             <img src="Imagenes/visa2.jpg" alt="visa" >
+             <img src="Imagenes/naranja.png" alt="naranja">
+             <img src="Imagenes/bancor2.png" alt="bancor" style="background-color: white;">
+             </div>
+        </seccion>
     </footer>
     
 </body>

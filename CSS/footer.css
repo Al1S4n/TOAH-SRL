@@ -1,0 +1,80 @@
+/*FOOTER*/
+
+footer {
+    padding-left: 100px;
+    padding-right: 150px;
+    height: 200px;
+
+    border-top: rgb(95, 97, 98) 4px solid;
+    display: flex;
+    gap: 550px;
+
+    font-size: 20px;
+    background-color: rgb(25, 23, 58);
+    color:aliceblue
+
+}
+
+footer img {
+    
+    display: block;
+    margin-top: 20px;
+}
+
+#img_Wpp {
+    margin-top: 10px;
+}
+
+#footer {
+    display: flex;
+    gap: 20px
+}
+
+.email:link {
+    color:aliceblue;
+
+}
+.email:visited {
+    color:aliceblue;
+    
+}
+.email:hover {
+    color:rgb(0, 130, 182);
+    font-size: 21px;
+  
+}
+.email:active {
+    color:aliceblue;
+}
+
+.wpp:link {
+    color:aliceblue;
+
+}
+.wpp:visited {
+    color:aliceblue;
+    
+}
+.wpp:hover {
+    color:rgb(0, 130, 182);
+    font-size: 21px;
+  
+}
+.wpp:active {
+    color:black;
+}
+
+footer p {
+    margin-top: 20px;
+}
+
+#tarjetas {
+    display: flex;
+    gap: 30px;
+    
+}
+
+#tarjetas img {
+    width: 50px;
+    height: auto;
+}
